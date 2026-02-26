@@ -1,13 +1,143 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Grace's WebPage</title>
+  <link href="/styles.css" rel="stylesheet" />
+  <link href="/portrait2.jpg" rel="icon" type="image/jpg"/>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+  </style>
+  <title>Grace Deng</title>
 </head>
 <body>
-  <h1>Welcome!</h1>
-  <p>A real web page is on the way ... :)</p>
+  <div class="hi">
+  <img id="portrait" src="portrait2.jpg">
+  <h1>hi, I'm Grace...</h1>
+  </div>
+  <p style="max-width: 800px; margin-bottom: 10px">
+    I'm a CS student at the University of Pennsylvania. I PROMISE to make this website cute one day, but for now we're
+    doing a single static HTML doc.
+  </p>
+  <p style="max-width: 800px">
+    I like bouldering, <a class="invisible" href="https://ch.tetr.io/u/starlitskies" target="_blank">modern tetris</a>,
+    animation, <a class="invisible" href="https://instagram.com/perennial.canvas" target="_blank">art (acrylic,
+      charcoal)</a>, acting, <a class="invisible" href="https://www.strava.com/athletes/189769481">running</a>, crocheting, reading (dystopian, sci-fi, fantasy), lifting, journaling, inconsistent capitalization, music (spiritbox, south arcade, thornhill, tate mcrae),
+    baking, and coding (BY HAND, NO VIBES).
+  </p>
+  <h2>links</h2>
   <ul>
-    <li><a href="https://g-deng.github.io/tm-app/">Turing Machine Simulator</a></li>
+    <li><a href="https://github.com/g-deng" target="_blank">github</a></li>
+    <li><a href="https://g-deng.github.io/finessy" target="_blank">finessy</a></li>
+    <li><a href="https://www.linkedin.com/in/dengg" target="_blank">linkedin</a></li>
   </ul>
+  <div class="project-list">
+    <h2>projects (reverse chronological order)</h2>
+    <div class="personal project">
+      <h3>finessy (in progress!!)</h3>
+      <div class="tags">
+        <p>live website</p>
+        <p>frontend only</p>
+        <p>vanilla typescript</p>
+        <p>in progress</p>
+      </div>
+      <p>
+        <a href="https://g-deng.github.io/finessy" target="_blank">(webpage)</a>
+        <a href="https://github.com/g-deng/finessy" target="_blank">(github)</a>
+        I am addicted to tetris so of course I would make a tetris trainer web app...
+        unlike nova learn, I actually want this to be useful so I'm making it frontend only so I can publish it without
+        paying for servers.
+      </p>
+    </div>
+    <div class="school project">
+      <h3>flood segmentation (school project)</h3>
+      <div class="tags">
+        <p>jupyter notebook</p>
+        <p>python</p>
+        <p>machine learning</p>
+      </div>
+      <p>
+        <a href="https://github.com/g-deng/flood_segmentation" target="_blank">(github)</a>
+        this was a group final project for CIS 5200 (ML) my junior fall.
+        I was logged into so many gmail accounts to farm the Google Colab compute, man...
+      </p>
+    </div>
+    <div class="personal project">
+      <h3>nova learn</h3>
+      <div class="tags">
+        <p>full stack</p>
+        <p>react typescript</p>
+        <p>fastapi</p>
+        <p>postgres</p>
+      </div>
+      <p>
+        <a href="https://github.com/g-deng/nova-learn" target="_blank">(github)</a>
+        one of my favorite personal projects!! I put in a lot of hours for this one.
+        it had backend + DB + auth + LLM integration. I was mostly making it because I needed a showcase for interviews.
+        I also learned quite a bit of frontend from it.
+      </p>
+    </div>
+    <div class="school project">
+      <h3>instalite (school project)</h3>
+      <div class="tags">
+        <p>full stack</p>
+        <p>react typescript</p>
+        <p>express.js</p>
+        <p>mysql</p>
+        <p>apache spark</p>
+      </div>
+      <p>
+        <a href="https://github.com/g-deng/instalite" target="_blank">(github)</a>
+        this was a group final project for NETS 2120 (scalable and cloud computing) in my sophomore spring.
+        those Apache Spark / Livy algorithms had me STRESSING.
+        I owe a LOT of my web dev knowledge to that class.
+      </p>
+    </div>
+    <div class="personal project">
+      <h3>turing machine web app</h3>
+      <div class="tags">
+        <p>live website</p>
+        <p>frontend only</p>
+        <p>react typescript</p>
+        <p>unfinished</p>
+      </div>
+      <p>
+        <a href="https://g-deng.github.io/tm-app/" target="_blank">(webpage)</a>
+        <a href="https://github.com/g-deng/tm-app" target="_blank">(github)</a>
+        when I built this I didn't know any frontend dev. now I do so one day I'll go back and make it pretty.
+        I'm pretty sure I made a v2 but only published the v1.
+      </p>
+    </div>
+    <div class="personal project">
+      <h3>turing machine command line simulator</h3>
+      <div class="tags">
+        <p>command line</p>
+        <p>java</p>
+        <p>origin story &lt3</p>
+      </div>
+      <p>
+        <a href="https://github.com/g-deng/TMSimulator" target="_blank">(github)</a>
+        my first personal project. I made it because I wanted to check my CIS 2620 (automata, computability, and
+        complexity) homework in 2024.
+        that was when I only knew Java.
+        it's lowkey useful now too, now that I'm a TA.
+      </p>
+    </div>
+    <div class="school project">
+      <h3>chess (school project)</h3>
+      <div class="tags">
+        <p>executable gui</p>
+        <p>java</p>
+        <p>origin story &lt3</p>
+      </div>
+      <p>
+        <a href="https://github.com/g-deng/MyChess" target="_blank">(github)</a>
+        this was my final project in CIS 1200 (intro to programming II) back in 2023 (my first CS class ever and the
+        reason I became a CS major!).
+        I turned it in with 3 minutes to spare...
+      </p>
+    </div>
+  </div>
+  last updated: Feb 2026
 </body>
+
 </html>

@@ -1,0 +1,62 @@
+* {
+    font-family: DM Mono;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px 40px;
+}
+
+p, b {
+  margin: 0;
+  padding: 0;
+}
+
+.hi {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+#portrait {
+    width: 100px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.project-list {
+    width: 600px;
+}
+
+.project {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.tags p {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    /* background-color: #000000; */
+    /* color: white; */
+    border: 1px solid black;
+}
+
+.invisible {
+    color: inherit;
+    text-decoration: none;
+}
